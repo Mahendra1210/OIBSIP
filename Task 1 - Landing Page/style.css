@@ -1,0 +1,246 @@
+html {
+    background-color: skyblue;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Home {
+    background-image: url(Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left,
+img {
+    height: 90px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -15px;
+    filter: contrast(-10);
+
+}
+
+.name,
+h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: 1.8rem;
+}
+
+.navbar-mid {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(63, 179, 224);
+    border-radius: 10px;
+}
+
+.body {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.homeinfo,
+p1 {
+    display: flex;
+    margin-left: 60px;
+    margin-top: -10px;
+    font-size: 1.6rem;
+    font-family: 'Caveat', cursive;
+    -webkit-text-stroke: 1.2px black;
+}
+
+#btn {
+    margin-left: 400px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(19, 150, 201);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(63, 179, 224);
+    color: aliceblue;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15px;
+    background-color: aliceblue;
+    color: rgb(63, 179, 224);
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+#container1 .box {
+
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+#container1 .box img {
+    border: 2px;
+    height: 220px;
+    width: 250px;
+    margin: auto;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(19, 150, 201);
+
+}
+
+#para {
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-right: 100px;
+    padding: 0px 30px 20px 30px;
+    font-size: 1.6rem;
+    font-family: 'Caveat', cursive;
+    -webkit-text-stroke: 1.2px black
+}
+
+#h-primary {
+    display: flex;
+    margin-left: 340px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+#h-primary2 {
+    display: flex;
+    color: rgb(19, 150, 201);
+    margin-left: 870px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+#container2 .box {
+    margin-top: 250px;
+}
+
+#container2 .box img {
+    border: 2px;
+    height: 220px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(19, 150, 201);
+}
+
+#para1 {
+    color: rgb(19, 150, 201);
+    -webkit-text-stroke: 2px rgb(19, 150, 201);
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-right: 300px;
+    padding: 0px 30px 20px 30px;
+    font-size: 1.6rem;
+    font-family: 'Caveat', cursive;
+    -webkit-text-stroke: 1.2px
+}
+
+#c1 {
+    margin-top: 250px;
+}
+
+#div1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 45%;
+    font-family: 'Caveat', cursive;
+}
+
+#footer {
+    margin-bottom: 0px;
+    margin-top: 280px;
+    background-color: aliceblue;
+}
+
+footer,
+#fpara {
+    display: flex;
+    margin-top: 125px;
+    margin-left: 520px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+#Flogo {
+    height: 30px;
+    margin-left: 640px;
+    margin-top: -50px;
+}
+
+#Ilogo {
+    height: 30px;
+    margin-left: 690px;
+    margin-top: -50px;
+}
+
+#Llogo {
+    height: 28px;
+    margin-left: 740px;
+    margin-top: -50px;
+}
+
+#Plogo {
+    height: 28px;
+    margin-left: 790px;
+    margin-top: -50px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(19, 150, 201);
+    border-radius: 10px;
+}
